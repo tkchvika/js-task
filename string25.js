@@ -1,5 +1,11 @@
-let str = 'я вчу javascript!';
+function strLength(str) {
+	return str.length
+}
 
-console.log(str.length);
+let str1 = 'я вчу javascript!';
+const result = strLength(str1)
+
+
+console.log(result);
 
 //done!
