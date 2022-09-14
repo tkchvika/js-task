@@ -1,6 +1,8 @@
-const str1 = 'Hello,';
-const str2 = 'World!';
+function a(str1, str2) {
+	return str1 + str2
+}
 
-console.log(str1, str2);
+const finalStr = a('Hello,', 'World!');
+console.log(finalStr)
 
-// done!
+//done!
